@@ -16,7 +16,7 @@
 
 Esta estrutura é montada de forma que haja uma sequência de ações, <b> procedimentos lineares </b>, podendo afetar as variáveis, tanto de escopo global quanto de escopo local em uma aplicação.
 
-## POO - Progração Orientada a Objetos
+# POO - Progração Orientada a Objetos
 
 É um paradigma de programação baseado no conceito de <b> objetos </b>, que podem conter dados na forma de campos/ <b>atributos</b>, e códigos na forma de procedimentos/<b>métodos</b>.
 
@@ -47,13 +47,13 @@ Exemplo em código: classe Student e classe school.
 
 Exemplos de nomes e convenções: 
 
- | Atributos | Serviços | Ferramentas | Repositorios |
+ | {c:red}Atributos{/c} | {c:red}Serviços{/c} | {c:red}Ferramentas{/c} | {c:red}Repositorios{/c} |
  | ----- | ----- | ----- | ----- |
  | Veículo | VeiculoService | Calculadora | VeiculoRepository |
  | Cliente | ClienteService | ValidadorUtil | ClienteRepository |
  | Colaborador | OficinaService | FormatadorUtil | PecaRepository |
 
- ## Pacotes - PACKAGES
+ # Pacotes - PACKAGES
 
  A linguagem Java é composta por milhares de classes com as finalidades de, por exemplo: Classes de tipos de dados, representação de texto, números, datas, arquivos e diretórios, conexão a banco de dados... Para melhor separar essas classes, são criados pacotes separando as <b>CATEGORIAS DE CLASSES</b>. São subdiretorios a partir da pasta src do projeto.
 
@@ -81,6 +81,7 @@ Ex. empresa chamada Power
 
     A localização da classe é definida pela palavra reservada package, uma classe só contém uma definição de package no arquivo, SEMPRE NA PRIMEIRA LINHA DO CÓDIGO. Para a utilização de uma classe existente em outro pacote, é necessário realizar a importação da classe, portanto ficaria:
 
+```
     package .....
     
     import .....
@@ -89,5 +90,5 @@ Ex. empresa chamada Power
     public class MinhaClass {
 
     }
-
+```
     
