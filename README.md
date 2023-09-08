@@ -57,8 +57,7 @@ Exemplos de nomes e convenções:
 
  A linguagem Java é composta por milhares de classes com as finalidades de, por exemplo: Classes de tipos de dados, representação de texto, números, datas, arquivos e diretórios, conexão a banco de dados... Para melhor separar essas classes, são criados pacotes separando as <b>CATEGORIAS DE CLASSES</b>. São subdiretorios a partir da pasta src do projeto.
 
- <b>Convenções:</b>
-Ex. empresa chamada Power
+ <b>Convenções:</b> Ex. empresa chamada Power
 
     Nomenclatura:
             - Comercial: com.power
@@ -76,8 +75,7 @@ Ex. empresa chamada Power
     Identificação: 
             - a classe dentro de um pacote passa a ter duas identificações, por exemplo uma classe de usuário no pacote com.controle.acesso.model, seria com.controle.acesso.model.usuario
 
-
-## Package vs Import
+## "Package vs Import"
 
     A localização da classe é definida pela palavra reservada package, uma classe só contém uma definição de package no arquivo, SEMPRE NA PRIMEIRA LINHA DO CÓDIGO. Para a utilização de uma classe existente em outro pacote, é necessário realizar a importação da classe, portanto ficaria:
 
