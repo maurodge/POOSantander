@@ -7,7 +7,7 @@
 
 ## Programação Estruturada
 
-{c:red}É um paradigma{/c} de programação que visa melhorar a clareza, a qualidade e o tempo de desenvolvimento de um programa de computador.
+É um paradigma de programação que visa melhorar a clareza, a qualidade e o tempo de desenvolvimento de um programa de computador.
 <b>Principais ferramentas na programação estruturada</b>
     - Estruturas de fluxo de controle;
     - Estruturas de repetição;
@@ -58,23 +58,26 @@ Exemplos de nomes e convenções:
  A linguagem Java é composta por milhares de classes com as finalidades de, por exemplo: Classes de tipos de dados, representação de texto, números, datas, arquivos e diretórios, conexão a banco de dados... Para melhor separar essas classes, são criados pacotes separando as <b>CATEGORIAS DE CLASSES</b>. São subdiretorios a partir da pasta src do projeto.
 
  <b>Convenções:</b> Ex. empresa chamada Power
+
         Nomenclatura:
             - Comercial: com.power
             - Governamental: gov.power
-            - Código aberto: org.power
+            - Código aberto: org.power;
+
     Categoria de classe:
             - model:        classes que representam uma camada e modelo da aplicação: Cliente, Pedido, NotaFiscal, Usuario...
             - repository:   classes e interfaces que vão interagir com o banco de dados: ClienteRepository
             - service:      classe que contém regras de negócio e validações
             - controller:   disponibiliza os recursos da aplicação a outras aplicações via HTTP
             - view:         classes com interação à interface gráfica acessada pelo usuário
-            - util:         classes utilitarias do sistema
+            - util:         classes utilitarias do sistema;
+
     Identificação:
             - a classe dentro de um pacote passa a ter duas identificações, por exemplo uma classe de usuário no pacote com.controle.acesso.model, seria com.controle.acesso.model.usuario
 
 ## "Package vs Import"
 
-    A localização da classe é definida pela palavra reservada package, uma classe só contém uma definição de package no arquivo, SEMPRE NA PRIMEIRA LINHA DO CÓDIGO. Para a utilização de uma classe existente em outro pacote, é necessário realizar a importação da classe, portanto ficaria:
+            A localização da classe é definida pela palavra reservada package, uma classe só contém uma definição de package no arquivo, SEMPRE NA PRIMEIRA LINHA DO CÓDIGO. Para a utilização de uma classe existente em outro pacote, é necessário realizar a importação da classe, portanto ficaria:
 
 
 ```
