@@ -7,7 +7,7 @@
 
 ## Programação Estruturada
 
-É um paradigma de programação que visa melhorar a clareza, a qualidade e o tempo de desenvolvimento de um programa de computador.
+{c:red}É um paradigma{/c} de programação que visa melhorar a clareza, a qualidade e o tempo de desenvolvimento de um programa de computador.
 <b>Principais ferramentas na programação estruturada</b>
     - Estruturas de fluxo de controle;
     - Estruturas de repetição;
@@ -47,7 +47,7 @@ Exemplo em código: classe Student e classe school.
 
 Exemplos de nomes e convenções: 
 
- | {c:red}Atributos{/c} | {c:red}Serviços{/c} | {c:red}Ferramentas{/c} | {c:red}Repositorios{/c} |
+ | Atributos | Serviços | Ferramentas | Repositorios |
  | ----- | ----- | ----- | ----- |
  | Veículo | VeiculoService | Calculadora | VeiculoRepository |
  | Cliente | ClienteService | ValidadorUtil | ClienteRepository |
