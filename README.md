@@ -118,7 +118,7 @@ A localização da classe é definida pela palavra reservada package, uma classe
 | Qlqr class filha qlqr package | SIM | SIM | **NÃO** | **NÃO** |
 | Qlqr class em qlqr package | SIM | **NÃO** | **NÃO** | **NÃO** |
 
-![Exemplo em código](link do codigo)
+![Exemplo em código](https://github.com/maurodge/POOSantander/tree/main/Lanchonete/src/lanchonete)
 
 ## Getters and setters
 
